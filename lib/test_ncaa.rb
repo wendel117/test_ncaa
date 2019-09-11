@@ -1,6 +1,2 @@
-require "test_ncaa/version"
-
-module TestNcaa
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "test_ncaa/version"
+require_relative "test_ncaa/cli"
